@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 12px; text-align: center; color:  hsl(215, 51%, 70%); margin: 15px}
+    .attribution a {text-decoration: none; color:hsl(215, 51%, 70%)}
+  </style>
+</head>
+<body>
+  <section class="container">
+    <div  class="container__image">
+      <img src="images/icon-view.svg" alt="view-icon-hover" class="container__image__icon">
+      <img src="images/image-equilibrium.jpg" alt="equilibrium-nft-preview" class="main-image">
+    </div>
+    <div class="container__text">
+      <div class="info">
+        <h1 class="info__title">Equilibrium #3429</h1>
+        <p class="info__description"> Our Equilibrium collection promotes balance and calm.</p>
+
+      </div>
+      <div class="details">
+        <div class="details__price">
+          <img src="images/icon-ethereum.svg" alt="ethereum" class="details__price__icon">
+          <span class="details__price__text">0.041 ETH</span>
+        </div>
+        <div class="details__time">
+          <img src="images/icon-clock.svg" alt="clock" class="details__time__icon">
+          <span class="details__time__text">3 days left</span>
+        </div>
+      </div>
+      <div class="line"></div>
+      <div class="creator">
+        <img src="images/image-avatar.png" alt="creator-avatar" class="creator__img">
+        <p class="creator__credit">Creation of <span class="creator__name">Jules Wyvern</span></p>
+      </div>
+    </div>
+  </section>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Gastón</a>.
+  </div>
+</body>
+</html>
+
+<!--hover effect: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_opacity-->
