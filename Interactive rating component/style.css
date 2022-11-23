@@ -1,0 +1,132 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(214, 78%, 2%);
+    font-size: 15px;
+    color: white;
+    font-family: 'Overpass', sans-serif;
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+button {
+    font-family: inherit;
+}
+
+.rating, .thanks {
+    max-width: 400px;
+    background-image: linear-gradient(
+        to bottom,
+        hsl(212, 18%, 14%),
+        hsl(220, 16%, 11%)
+    );
+    border-radius: 1rem;
+    padding: 1.5rem;
+}
+
+.star-icon {
+    background-color: hsl(213, 19%, 21%);
+    padding: .8rem;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+}
+
+.title {
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.text {
+    font-weight: 400;
+    color: hsl(217, 12%, 63%);
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.rating__container__grades {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.grade {
+    background-color: hsl(213, 19%, 21%);
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: none;
+    color: hsl(217, 12%, 63%);
+    transition: .3s;
+    cursor: pointer;
+}
+
+.grade:hover {
+    background-color:hsl(25, 97%, 53%);
+    color: white;
+}
+
+
+.grade:focus {
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+
+.button__submit {
+    width: 100%;
+    background-color: hsl(25, 97%, 53%);
+    padding: 1rem 1.2rem .7rem;
+    border-radius: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    color: white;
+    font-weight: 700;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.button__submit:hover {
+    background-color: white;
+    color:hsl(25, 97%, 53%);
+}
+
+.thanks {
+    text-align: center;
+}
+
+.thank-you {
+    margin-bottom: 1.5rem;
+}
+
+.rating__text {
+    color: hsl(25, 97%, 53%);
+    font-weight: 400;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    margin-bottom: 1.5rem;
+    background-color: hsl(213, 19%, 21%);
+    padding: .3rem 1rem 0;
+    border-radius: 2rem;
+    display: inline-block;
+}
+
+.title2 {
+    font-size: 1.7rem;
+    font-weight: 400;
+    letter-spacing: .07rem;
+    margin-bottom: .7rem;
+}
+
+.hidden {
+    display: none;
+}
