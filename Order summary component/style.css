@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*border: 1px solid red;*/
+}
+
+body {
+    font-family: 'Red hat display', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: hsl(225, 100%, 94%);
+    background: hsl(225, 100%, 94%) url(./images/pattern-background-desktop.svg) no-repeat top;
+}
+
+.main-component {
+    max-width: 375px;
+    border-radius: 1rem;
+    background-color: white;
+    
+}
+
+.illustration {
+    max-width: 375px;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.title {
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 1.2rem;
+}
+
+.description {
+    margin: 1.2rem;
+    text-align: center;
+    line-height: 1.5rem;
+    letter-spacing: -.01rem;
+    color: hsl(224, 23%, 55%);
+    font-size: .95rem;
+}
+
+.info {
+    display: flex;
+    padding: .8rem;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: .8rem;
+    margin: .5rem 2rem;
+}
+
+.music_icon {
+    margin: .5rem;
+}
+
+.plan {
+    letter-spacing: -0.05rem;
+    font-weight: 900;
+    margin: .4rem;
+}
+
+.pricing {
+    color:hsl(224, 23%, 55%);
+    letter-spacing: -0.05rem;
+    margin: .4rem;
+}
+
+.link {
+    letter-spacing: -0.05rem;
+    font-size: .95rem;
+    font-weight: 700;
+    align-self: center;
+    margin-left: 4rem;
+    transition: .2s;
+}
+
+.link:hover {
+    color: #766cf1;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+.buttons > * {
+    padding: .8rem;
+    border-radius: .7rem;
+    border: none;
+    font-family: inherit;
+    font-weight: 700;
+}
+
+.pay {
+    background-color:  hsl(245, 75%, 52%);
+    color: white;
+    margin-bottom: 1rem;
+    box-shadow: 0 1rem 1rem  hsl(245, 60%, 88%);
+    transition: .2s;
+}
+
+.pay:hover {
+    background-color: #766cf1;
+}
+
+.cancel {
+    background: none;
+    color:hsl(224, 23%, 55%);
+    transition: .2s;
+}
+
+.cancel:hover {
+    color: black;
+    font-weight: 900;
+}
+
