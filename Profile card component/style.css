@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Kumbh Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+    background-position: right 45vw bottom 45vh, 45vw 45vh;
+    background-repeat: no-repeat;
+}
+
+.main {
+    max-width: 375px;
+    background-color: white;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-background {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.user-photo {
+    max-width: 7.5rem;
+    border-radius: 50%;
+    border: .35rem solid white;
+    padding: .01rem;
+    margin-top: -3.5rem;
+    background-color: white;
+    margin-bottom: 1.5rem;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name {
+    margin-bottom: .5rem;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.age {
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: hsl(227, 10%, 46%);
+    margin: .6rem;
+}
+
+.location {
+    margin-bottom: 1.5rem;
+    color:hsl(227, 10%, 46%);
+} 
+
+.line {
+    width: 100%;
+    background-color:hsl(220, 30%, 96%);
+    height: 1.8px;
+
+}
+.stats {
+    display: flex;
+    width: 100%;
+    padding: 1.5rem 0;
+    justify-content: space-evenly;
+}
+
+.followers, .likes, .photos {
+    text-align: center;
+}
+
+.stats__number {
+    font-size: 1.2rem;
+    margin-bottom: .3rem;
+}
+
+.stats__description {
+    font-size: .7rem;
+    letter-spacing: .07rem;
+    color:hsl(227, 10%, 46%)
+}
